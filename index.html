@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digikala</title>
+
+
+  <script type="module" src="./assets/index-CNTz43uF.js"></script>
+  <link rel="stylesheet" href="./assets/index-Be-UtpwM.css">
+</head>
+
+<body>
+  <!--Project Start-->
+
+  <!--header mobile Start-->
+  <div class="lg:hidden sticky top-0 left-0 bannerZindex">
+    <div class="header__Banner w-full h-[30px] bg-[#CC1335] flex justify-center items-center bannerZindex">
+      <div class="header__Banner__CountDown w-[130px] h-[40px] flex justify-between items-center z-30">
+        <div class="header__Banner__CountDown__second counter-box"></div>
+        <span class="text-white font-bold text-[20px]">:</span>
+        <div class="header__Banner__CountDown__minute counter-box"></div>
+        <span class="text-white font-bold text-[20px]">:</span>
+        <div class="header__Banner__CountDown__hour counter-box"></div>
+      </div><!--timer-->
+    </div>
+    <div class="w-[95%] h-[60px] m-auto py-[10px] bg-white">
+      <input class="w-full h-[40px] bg-[#F0F0F1] rounded-[30px] px-[20px]" type="search" name="search"
+        id="headerSearch">
+    </div>
+  </div>
+  <div
+    class="bannerZindex lg:hidden w-full h-[50px] fixed bottom-0 shadow-md shadow-black flex justify-around items-center bg-white">
+    <a class="flex flex-col items-center" href="">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%23000'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='home1Fill'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M20%2011.586v6.586a3%203%200%2001-3%203H7a3%203%200%2001-3-3v-6.586l-1.293%201.293-1.414-1.415L9.879%202.88a3%203%200%20014.242%200l8.586%208.585-1.414%201.415L20%2011.586z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23home1Fill'%3e%3c/use%3e%3c/svg%3e"
+        alt="home">
+      <div class="text-[12px]">خانه</div>
+    </a>
+    <a class="flex flex-col items-center" href="#">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='categoryOutline'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M10%202H3a1%201%200%2000-1%201v7a1%201%200%20001%201h7a1%201%200%20001-1V3a1%201%200%2000-1-1zM4%209V4h5v5H4zm17%204a1%201%200%20011%201v7a1%201%200%2001-1%201h-7a1%201%200%2001-1-1v-7a1%201%200%20011-1h7zm-3.5-2a4.5%204.5%200%20110-9%204.5%204.5%200%20010%209zM20%206.5a2.5%202.5%200%2011-5%200%202.5%202.5%200%20015%200zM6.5%2022a4.5%204.5%200%20110-9%204.5%204.5%200%20010%209zM9%2017.5a2.5%202.5%200%2011-5%200%202.5%202.5%200%20015%200zm6%202.5v-5h5v5h-5z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23categoryOutline'%3e%3c/use%3e%3c/svg%3e"
+        alt="home">
+      <div class="text-[12px]">دسته بندی</div>
+    </a>
+    <a class="flex flex-col items-center" href="#">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='cartOff'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M20%204h2V2h-3a1%201%200%2000-1%201v1H3a1%201%200%2000-.995%201.1l1%2010A1%201%200%20004%2016h15a1%201%200%20001-1V4zm-2%2017a2%202%200%20110-4%202%202%200%20010%204zM5%2021a2%202%200%20110-4%202%202%200%20010%204zm13-7V6H4.105l.8%208H18z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23cartOff'%3e%3c/use%3e%3c/svg%3e"
+        alt="home">
+      <div class="text-[12px]">سبد خرید</div>
+    </a>
+    <a class="flex flex-col items-center" href="#">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='profileOff'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M12%202a5%205%200%20015%205v1A5%205%200%20017%208V7a5%205%200%20015-5zm9.996%2018.908C21.572%2016.318%2018.096%2014%2012%2014c-6.095%200-9.572%202.318-9.996%206.908A1%201%200%20003%2022h18a1%201%200%2000.996-1.092zM4.188%2020c.728-2.677%203.231-4%207.812-4%204.58%200%207.084%201.323%207.812%204H4.188zM9%207a3%203%200%20116%200v1a3%203%200%2001-6%200V7z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23profileOff'%3e%3c/use%3e%3c/svg%3e"
+        alt="home">
+      <div class="text-[12px]">دیجیکالا من</div>
+    </a>
+  </div>
+  <!--header mobile End-->
+
+  <!--header Desktop Start-->
+  <div class="hidden lg:block sticky top-0 left-0 bannerZindex bg-white shadow-gray-400 shadow-sm">
+    <div class="">
+      <img src="/assets/banner-DKHUyWkR.png" alt="banner">
+    </div>
+    <div class="w-full px-[20px]  lg:flex justify-between ">
+      <div class="p-[10px] flex gap-[10px]">
+        <img width="195px" height="30px" src="/assets/digikalaIcon-CsCL3ZHX.svg" alt="">
+        <input class="w-[540px] h-[40px] bg-[#F0F0F1] rounded-lg" type="text" name="desktopSearch" id="desktopSearch">
+      </div>
+      <div class="flex gap-4 items-center">
+        <div class="w-fit p-[7px] rounded-lg border-solid border-[0.7px] border-black/40 flex gap-1">
+          <img
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-high-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='registerationSignIn'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M16%2015h-2v2a2%202%200%2001-2%202H6a2%202%200%2001-2-2V7a2%202%200%20012-2h6a2%202%200%20012%202v2h2V7a4%204%200%2000-4-4H6a4%204%200%2000-4%204v10a4%204%200%20004%204h6a4%204%200%20004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4%204a1%201%200%20000%201.414l4%204%201.414-1.414L9.414%2013H22v-2z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23registerationSignIn'%3e%3c/use%3e%3c/svg%3e"
+            alt="">
+          <div class="">ورود | ثبت نام</div>
+        </div>
+        <span class="w-[0.5px] h-[25px] bg-black/40 block"></span>
+        <div class=""><img
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-high-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='cartOff'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M20%204h2V2h-3a1%201%200%2000-1%201v1H3a1%201%200%2000-.995%201.1l1%2010A1%201%200%20004%2016h15a1%201%200%20001-1V4zm-2%2017a2%202%200%20110-4%202%202%200%20010%204zM5%2021a2%202%200%20110-4%202%202%200%20010%204zm13-7V6H4.105l.8%208H18z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23cartOff'%3e%3c/use%3e%3c/svg%3e"
+            alt=""></div>
+      </div>
+    </div>
+    <div class="w-full h-[35px] px-[30px] flex justify-between items-center  bg-white">
+      <div class="flex gap-3 items-center ">
+        <a class="animatedLink flex gap-2 justify-center items-end ml-3" href="">
+          <img width="24px" height="24px"
+            src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3csvg%20width='800px'%20height='800px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4%2018L20%2018'%20stroke='%23000000'%20stroke-width='2'%20stroke-linecap='round'/%3e%3cpath%20d='M4%2012L20%2012'%20stroke='%23000000'%20stroke-width='2'%20stroke-linecap='round'/%3e%3cpath%20d='M4%206L20%206'%20stroke='%23000000'%20stroke-width='2'%20stroke-linecap='round'/%3e%3c/svg%3e"
+            alt="">
+          <div class="">دسته بندی ها</div>
+        </a>
+        <span class="block bg-black/20 w-[1px] h-[15px]"></span>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <img width="17px" height="17px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%20%23A1A3A8'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='amazing'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M15.112%202.234c.687.231%201.153.525%201.895%201.171l.536.474.109.09.142.104.653.42c.837.54%201.244.9%201.663%201.495.381.542.579%201%20.794%201.841l.226.941.053.185.049.142.285.719c.36.914.483%201.457.483%202.184%200%20.728-.124%201.27-.483%202.184l-.246.615-.08.22-.06.211-.227.941c-.215.842-.413%201.3-.795%201.843-.416.59-.822.95-1.646%201.483l-.67.431-.14.104-.176.147-.471.417c-.742.646-1.208.94-1.898%201.172-.688.23-1.206.272-2.224.199l-.687-.052-.197-.006-.086.001-.212.01-.586.047c-1.018.073-1.537.03-2.23-.201-.686-.231-1.152-.524-1.893-1.17l-.594-.522-.144-.111-.103-.072-.619-.395c-.821-.532-1.229-.894-1.643-1.483-.417-.593-.614-1.085-.855-2.085l-.146-.621-.061-.225-.06-.179-.285-.719C2.123%2013.27%202%2012.729%202%2012c0-.727.124-1.27.483-2.184l.285-.717.082-.258.039-.147.146-.621.118-.46c.195-.707.39-1.131.737-1.624.414-.59.82-.95%201.643-1.483l.552-.352.153-.104.16-.123.124-.105.47-.417c.743-.646%201.209-.94%201.897-1.171.69-.232%201.209-.274%202.227-.2l.7.052.228.005.275-.013.564-.044c1.02-.074%201.539-.031%202.229.2zm-1.931%201.784l-.89.065c-.105.006-.2.008-.291.008l-.275-.007-.156-.009-.563-.044-.385-.024c-.514-.024-.767.012-1.094.122l-.108.039c-.35.132-.62.313-1.138.767l-.55.486-.155.125-.142.107-.23.158-.72.462c-.517.343-.733.545-.958.866-.23.326-.347.596-.51%201.247l-.193.815-.05.19-.05.17-.094.271-.345.87C4.061%2011.287%204%2011.594%204%2012l.002.12c.012.35.082.65.282%201.18l.37.934.07.21.074.257.219.914c.162.65.28.92.51%201.247.247.352.485.564%201.121.973l.559.356c.118.077.204.138.296.207l.073.056.241.2.464.411c.569.5.839.67%201.241.805.404.135.694.159%201.484.1l.306-.025.555-.034.133-.002c.09%200%20.186.003.291.008l.166.01.536.043c.79.059%201.08.035%201.478-.098.407-.138.678-.308%201.247-.807l.387-.344.212-.182.181-.142.186-.133.108-.073.721-.462c.518-.342.735-.546.96-.866.25-.357.367-.644.554-1.431l.091-.391c.032-.138.059-.245.084-.34l.075-.26.094-.273.345-.869c.223-.587.284-.894.284-1.299%200-.405-.061-.712-.284-1.299l-.37-.934-.095-.293-.075-.274-.149-.631-.098-.39c-.109-.402-.203-.64-.34-.865l-.115-.175c-.226-.32-.441-.523-.96-.866l-.624-.4a7.664%207.664%200%2001-.255-.17l-.212-.157-.155-.126-.697-.613c-.42-.357-.669-.516-.977-.634l-.218-.074c-.322-.098-.603-.12-1.195-.081zM16%2015.5a1.5%201.5%200%2010-3%200%201.5%201.5%200%20003%200zm-1.8-8.1l1.6%201.2-6%208-1.6-1.2%206-8zM11%208.5a1.5%201.5%200%2010-3%200%201.5%201.5%200%20003%200z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23amazing'%3e%3c/use%3e%3c/svg%3e"
+            alt="amazingPage">
+          <div class="text-[13px] text-[#A1A3A8]">شگفت انگیزها
+          </div>
+        </a>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <img width="17px" height="17px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%20%23A1A3A8'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='fresh'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M18%204a2%202%200%2000-2-2h-3a2%202%200%2000-2%202v1.535a4.007%204.007%200%2000-1.874%202.467A5.108%205.108%200%20009%208l-.217.005A5%205%200%20004%2013H3a1%201%200%2000-.99%201.141l1%207A1%201%200%20004%2022h16a1%201%200%2000.99-.859l1-7A1%201%200%200021%2013h-1V9l-.007-.232a4%204%200%2000-1.992-3.232L18%204zM4.867%2020l-.714-5h15.694l-.714%205H4.867zM16%207h-3a2%202%200%2000-1.924%201.45%205.003%205.003%200%20012.919%204.318L14%2013h4V9a2%202%200%2000-1.85-1.995L16%207zm-9.995%205.824A3%203%200%200112%2013H6l.005-.176zM16%204h-3v1h3V4zm-1%2014v-2H9v2h6z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23fresh'%3e%3c/use%3e%3c/svg%3e"
+            alt="amazingPage">
+          <div class="text-[13px] text-[#A1A3A8]">سوپرمارکت
+          </div>
+        </a>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <img width="17px" height="17px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%20%23A1A3A8'%20width='18'%20height='18'%20%3e%3cdefs%3e%3csymbol%20id='giftCard'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2018%2018'%3e%3cpath%20d='M11.25%2010.5H15V12h-3.75v-1.5z'%3e%3c/path%3e%3cpath%20fill-rule='evenodd'%20d='M3%203h12a2.25%202.25%200%20012.25%202.25v7.5A2.25%202.25%200%200115%2015H3a2.25%202.25%200%2001-2.25-2.25v-7.5A2.25%202.25%200%20013%203zm0%201.5a.75.75%200%2000-.75.75v7.5c0%20.414.336.75.75.75h3v-2.69l-.97.97-1.06-1.06.988-.989A2.25%202.25%200%20116%205.378V4.5H3zm3%203.75V7.5a.75.75%200%2010-.75.75H6zm1.5-2.872V4.5H15a.75.75%200%2001.75.75v7.5a.75.75%200%2001-.75.75H7.5v-2.69l.97.97%201.06-1.06-.988-.989A2.25%202.25%200%20107.5%205.378zm0%202.872h.75a.75.75%200%2010-.75-.75v.75z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23giftCard'%3e%3c/use%3e%3c/svg%3e"
+            alt="amazingPage">
+          <div class="text-[13px] text-[#A1A3A8]">کارت هدیه
+          </div>
+        </a>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <img width="17px" height="17px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%20%23A1A3A8'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='searchTrend'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M12.015%209.105c.222.397.41.73.466.842.361.724.519%201.31.519%202.053a2%202%200%2001-4%200l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087%209.572%204%2011.906%204%2013.889%204%2018.365%207.578%2022%2012%2022c4.422%200%208-3.635%208-8.111%200-2.968-2.45-6.78-7.295-11.598a1%201%200%2000-1.6.262c-.807%201.615-.807%203.28%200%204.894.178.356.582%201.076.91%201.658zM7%2012a4%204%200%20108%200c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532%2050.532%200%2001-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18%208.811%2018%2011.834%2018%2013.889%2018%2017.267%2015.31%2020%2012%2020s-6-2.733-6-6.111c0-.87.33-1.925%201-3.154V12z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23searchTrend'%3e%3c/use%3e%3c/svg%3e"
+            alt="amazingPage">
+          <div class="text-[13px] text-[#A1A3A8]">پرفروش ترین
+          </div>
+        </a>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <img width="17px" height="17px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%20%23A1A3A8'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='discount'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M22%204a1%201%200%20011%201v14a1%201%200%2001-1%201H6a1%201%200%2001-.707-.293l-4-4A1%201%200%20011%2015V9a1%201%200%2001.293-.707l4-4A1%201%200%20016%204h16zm-1%202H6.414L3%209.414v5.172L6.414%2018H21V6zm-6%203.5a1.5%201.5%200%2011-3%200%201.5%201.5%200%20013%200zm2.5%206.5a1.5%201.5%200%20100-3%201.5%201.5%200%20000%203zM10%2012a3%203%200%2011-6%200%203%203%200%20016%200zm-4%200a1%201%200%20102%200%201%201%200%2000-2%200zm12.848-3.47l-5%208-1.696-1.06%205-8%201.696%201.06z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23discount'%3e%3c/use%3e%3c/svg%3e"
+            alt="amazingPage">
+          <div class="text-[13px] text-[#A1A3A8]">تخفیف ها و پسشنهادات
+          </div>
+        </a>
+        <span class="block bg-black/20 w-[1px] h-[15px]"></span>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <div class="text-[13px] text-[#A1A3A8]">سوالی دارید؟
+          </div>
+        </a>
+        <a class="animatedLink  flex items-center justify-center gap-1" href="#">
+          <div class="text-[13px] text-[#A1A3A8]">در دیجیکالا بفروشید!
+          </div>
+        </a>
+      </div>
+      <a href="#" class="flex items-center gap-1">
+        <img
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2020px;%20height:%2020px;%20fill:%20var(--color-icon-high-emphasis);'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='pin'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M4%209.611C4%205.391%207.59%202%2012%202s8%203.39%208%207.611c0%202.818-1.425%205.518-3.768%208.034a23.496%2023.496%200%2001-2.514%202.322c-.517.413-.923.706-1.166.867L12%2021.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499%2023.499%200%2001-2.514-2.322C5.425%2015.129%204%2012.428%204%209.61zm8.47%208.794c.784-.627%201.569-1.34%202.298-2.124C16.8%2014.101%2018%2011.827%2018%209.611%2018%206.521%2015.33%204%2012%204S6%206.522%206%209.611c0%202.215%201.2%204.49%203.232%206.67A21.536%2021.536%200%200012%2018.769c.148-.111.305-.233.47-.364zM12%2014a4.001%204.001%200%20010-8%204.001%204.001%200%20010%208zm0-2a2.001%202.001%200%20000-4%202.001%202.001%200%20000%204z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23pin'%3e%3c/use%3e%3c/svg%3e"
+          alt="location">
+        <div class="text-[13px] text-black/40">ارسال به تهران, تهران</div>
+      </a>
+    </div>
+
+  </div>
+  <!--header Desktop End-->
+
+  <!--Story Start-->
+  <div class="w-[95%] lg:w-[80%] h-[130px] m-auto">
+    <div class="relative">
+      <swiper-container class="storySlider" slides-per-view="4" space-between="10" breakpoints='{
+          "400": {"slidesPerView": 5},
+          "640": {"slidesPerView": 6.2},
+          "768": {"slidesPerView": 7.5},
+          "900": {"slidesPerView": 9},
+          "1250": {"slidesPerView": 12.5}
+      }'>
+      </swiper-container>
+
+      <div class="custom-next"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_226_'%20d='M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21%20l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001%20c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z'/%3e%3c/svg%3e"
+          alt="Next">
+      </div>
+      <div class="custom-prev"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_227_'%20d='M233.25,306.001L127.5,165.005L233.25,24.001c4.971-6.628,3.627-16.03-3-21c-6.627-4.971-16.03-3.626-21,3%20L96.75,156.005c-4,5.333-4,12.667,0,18l112.5,149.996c2.947,3.93,7.451,6.001,12.012,6.001c3.131,0,6.29-0.978,8.988-3.001%20C236.878,322.03,238.221,312.628,233.25,306.001z'/%3e%3c/svg%3e"
+          alt="Prev">
+      </div>
+    </div>
+  </div>
+  <!--Story End-->
+
+  <!--Main Slider Start-->
+  <div class="mainSliderx w-[95%] lg:w-full m-auto my-[20px] relative">
+    <swiper-container class="mainSlider" pagination="true" pagination-clickable="true" loop="true"></swiper-container>
+    <div class="custom-nextmainSlider"><img width="20px" height="20px"
+        src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_226_'%20d='M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21%20l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001%20c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z'/%3e%3c/svg%3e"
+        alt="Next">
+    </div>
+    <div class="custom-prevmainSlider"><img width="20px" height="20px"
+        src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_227_'%20d='M233.25,306.001L127.5,165.005L233.25,24.001c4.971-6.628,3.627-16.03-3-21c-6.627-4.971-16.03-3.626-21,3%20L96.75,156.005c-4,5.333-4,12.667,0,18l112.5,149.996c2.947,3.93,7.451,6.001,12.012,6.001c3.131,0,6.29-0.978,8.988-3.001%20C236.878,322.03,238.221,312.628,233.25,306.001z'/%3e%3c/svg%3e"
+        alt="Prev">
+    </div>
+  </div>
+  <!--Main Slider End-->
+
+  <!--Icon start-->
+  <div class="iconItems w-[95%] lg:w-[80%] h-fit m-auto flex flex-wrap justify-between items-center"></div>
+  <!--Icon End-->
+
+  <!--Amazing Slider Start-->
+  <div
+    class="w-[95%] lg:w-[90%] 2xl:w-[80%] m-auto my-[20px] bg-gradient-to-l from-[#D52D4E] to-[#EF515E]  p-[20px] rounded-[15px] relative">
+    <swiper-container class="amazingSlider" slides-per-view="2.1" space-between="5" breakpoints='{
+        "400": {"slidesPerView": 2.5},
+        "640": {"slidesPerView": 3.3},
+        "768": {"slidesPerView": 4.1},
+        "900": {"slidesPerView": 5.1},
+        "1250": {"slidesPerView": 7.2}
+    }'></swiper-container>
+    <div class="custom-nextamazingSlider"><img width="20px" height="20px"
+        src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_226_'%20d='M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21%20l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001%20c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z'/%3e%3c/svg%3e"
+        alt="Next">
+    </div>
+    <div class="custom-prevamazingSlider"><img width="20px" height="20px"
+        src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_227_'%20d='M233.25,306.001L127.5,165.005L233.25,24.001c4.971-6.628,3.627-16.03-3-21c-6.627-4.971-16.03-3.626-21,3%20L96.75,156.005c-4,5.333-4,12.667,0,18l112.5,149.996c2.947,3.93,7.451,6.001,12.012,6.001c3.131,0,6.29-0.978,8.988-3.001%20C236.878,322.03,238.221,312.628,233.25,306.001z'/%3e%3c/svg%3e"
+        alt="Prev">
+    </div>
+  </div>
+  <!--Amazing Slider End-->
+
+  <!--partnerShip Start-->
+  <div
+    class="partnerShip w-[95%] lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] flex  flex-wrap gap-y-3 justify-around lg:justify-between">
+  </div>
+  <!--partnerShip End-->
+
+  <!--Super market Start-->
+  <div
+    class="w-[95%] lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] lg:flex justify-between bg-[#ECEFEF] bg-seperMarketPattern p-[30px] rounded-[20px]">
+    <div class="flex justify-center items-center gap-[10px] my-[30xp] lg:m-0">
+      <img width="66px" height="62px" src="/assets/superMatketBasket-DC89lPGE.png" alt="">
+      <img width="250px" height="30px" src="/assets/superMarketText-rG1abZu7.svg" alt="">
+      <div
+        class="w-[110px] h-[30px] text-[14px] justify-center items-center hidden lg:flex px-2 py-1 bg-[#3E9A4C] rounded-[20px] text-white">
+        تا 60% تخفیف</div>
+    </div>
+    <div class="lg:flex justify-center items-center gap-4">
+      <div class="superMarket flex justify-center items-center gap-3"></div>
+      <div
+        class="flex justify-center items-center h-[40px] p-[5px] my-[20px] gap-2 bg-white rounded-full text-[#3E9A4C]">
+        بیش از 200 کالا
+        <img class="w-[20px] h-[20px]"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2020px;%20height:%2020px;%20fill:%23149C4D'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='arrowLeft'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M11.293%2019.707l1.414-1.414L7.414%2013H20v-2H7.414l5.293-5.293-1.414-1.414-7%207a1%201%200%20000%201.414l7%207z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20fill-rule='evenodd'%20d='M11.293%2019.707l1.414-1.414L7.414%2013H20v-2H7.414l5.293-5.293-1.414-1.414-7%207a1%201%200%20000%201.414l7%207z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="greenArrow">
+      </div>
+    </div>
+  </div>
+  <!--Super market End-->
+
+  <!--partnerShip 2 Start-->
+  <div
+    class="partnerShip2 w-[95%] lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] flex  flex-wrap gap-y-3 justify-center lg:justify-between items-center">
+  </div>
+  <!--partnerShip 2 End-->
+
+  <!--categorize Shopping Start-->
+  <div
+    class="w-full lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] flex flex-col justify-around items-center flex-wrap gap-y-3">
+    <div class="text-[24px] mb-2">خرید بر اساس دسته بندی</div>
+    <div class="categorizeShoppingItems w-full flex justify-around flex-wrap gap-y-3"></div>
+  </div>
+  <!--categorize Shopping End-->
+
+
+  <!--partnerShip 3 Start-->
+  <div
+    class="partnerShip3 w-[95%] lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] flex  flex-wrap gap-y-3 justify-center lg:justify-between items-center">
+  </div>
+  <!--partnerShip 3 End-->
+
+  <!--Most popular Brands Start-->
+  <div class="w-full lg:w-[90%] 2xl:w-[80%] m-auto border-black/20 border-solid border-[1px] rounded-[15px] my-4">
+    <div class="flex justify-center items-center gap-3 h-[50px]">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20%23F9BC00'%20width='25'%20height='24'%3e%3cdefs%3e%3csymbol%20id='topBrands'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2025%2024'%3e%3cpath%20d='M7.278%206.192L4.5%203.414%205.914%202l2.778%202.778-1.414%201.414z'%3e%3c/path%3e%3cpath%20fill-rule='evenodd'%20d='M14.497%204.675l1.028%203.162h3.325c2.034%200%202.88%202.603%201.234%203.799l-2.69%201.954%201.028%203.163c.628%201.934-1.586%203.543-3.232%202.347l-2.69-1.954L9.81%2019.1c-1.646%201.196-3.86-.413-3.232-2.348l1.028-3.162-2.69-1.954c-1.646-1.196-.8-3.799%201.234-3.8h3.325l1.028-3.161c.629-1.935%203.365-1.935%203.994%200zm-3.641%205.162a.1.1%200%2000.095-.07l1.454-4.474a.1.1%200%2001.19%200l1.454%204.475a.1.1%200%2000.095.069h4.706a.1.1%200%2001.058.18l-3.806%202.767a.1.1%200%2000-.036.111l1.453%204.476a.1.1%200%2001-.153.111l-3.807-2.765a.1.1%200%2000-.118%200l-3.807%202.765a.1.1%200%2001-.153-.111l1.453-4.476a.1.1%200%2000-.036-.111l-3.806-2.766a.1.1%200%2001.058-.181h4.706z'%20clip-rule='evenodd'%3e%3c/path%3e%3cpath%20d='M19.167%2015.244l3.333%202.222%201.11-1.664-3.334-2.223-1.11%201.665zM5.833%2015.244L2.5%2017.466l-1.11-1.664%203.334-2.223%201.11%201.665zM11.5%2020v3h2v-3h-2zM18.192%206.192l2.778-2.778L19.556%202l-2.778%202.778%201.414%201.414z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.278%206.192L4.5%203.414%205.914%202l2.778%202.778-1.414%201.414z'%3e%3c/path%3e%3cpath%20fill-rule='evenodd'%20d='M14.497%204.675l1.028%203.162h3.325c2.034%200%202.88%202.603%201.234%203.799l-2.69%201.954%201.028%203.163c.628%201.934-1.586%203.543-3.232%202.347l-2.69-1.954L9.81%2019.1c-1.646%201.196-3.86-.413-3.232-2.348l1.028-3.162-2.69-1.954c-1.646-1.196-.8-3.799%201.234-3.8h3.325l1.028-3.161c.629-1.935%203.365-1.935%203.994%200zm-3.641%205.162a.1.1%200%2000.095-.07l1.454-4.474a.1.1%200%2001.19%200l1.454%204.475a.1.1%200%2000.095.069h4.706a.1.1%200%2001.058.18l-3.806%202.767a.1.1%200%2000-.036.111l1.453%204.476a.1.1%200%2001-.153.111l-3.807-2.765a.1.1%200%2000-.118%200l-3.807%202.765a.1.1%200%2001-.153-.111l1.453-4.476a.1.1%200%2000-.036-.111l-3.806-2.766a.1.1%200%2001.058-.181h4.706z'%20clip-rule='evenodd'%3e%3c/path%3e%3cpath%20d='M19.167%2015.244l3.333%202.222%201.11-1.664-3.334-2.223-1.11%201.665zM5.833%2015.244L2.5%2017.466l-1.11-1.664%203.334-2.223%201.11%201.665zM11.5%2020v3h2v-3h-2zM18.192%206.192l2.778-2.778L19.556%202l-2.778%202.778%201.414%201.414z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+        alt="">
+      <div class="text-[20px]">محبوب ترین برند ها</div>
+    </div>
+    <div class="relative">
+      <swiper-container class="popularBrandsSwiper" slides-per-view="3" space-between="5" breakpoints='{
+        "400": {"slidesPerView": 5},
+        "640": {"slidesPerView": 6.2},
+        "768": {"slidesPerView": 7.5},
+        "900": {"slidesPerView": 9},
+        "1250": {"slidesPerView": 8.5}
+    }'></swiper-container>
+      <div class="custom-nextBrand"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_226_'%20d='M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21%20l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001%20c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z'/%3e%3c/svg%3e"
+          alt="Next">
+      </div>
+      <div class="custom-prevBrand"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_227_'%20d='M233.25,306.001L127.5,165.005L233.25,24.001c4.971-6.628,3.627-16.03-3-21c-6.627-4.971-16.03-3.626-21,3%20L96.75,156.005c-4,5.333-4,12.667,0,18l112.5,149.996c2.947,3.93,7.451,6.001,12.012,6.001c3.131,0,6.29-0.978,8.988-3.001%20C236.878,322.03,238.221,312.628,233.25,306.001z'/%3e%3c/svg%3e"
+          alt="Prev">
+      </div>
+    </div>
+  </div>
+  <!--Most popular Brands End-->
+
+  <!--partnerShip 4 Start-->
+  <div class="partnerShip4 w-[95%] lg:w-[90%] 2xl:w-[80%] h-fit mx-auto my-[20px] rounded-[20px] overflow-hidden">
+  </div>
+  <!--partnerShip 4 End-->
+
+  <!--Client taste Start-->
+  <div
+    class="clientTasteItems w-full lg:w-[90%] 2xl:w-[80%] m-auto my-[30px] border-black/20 border-solid border-[1px] rounded-[15px] flex justify-between flex-wrap">
+  </div>
+  <!--Client taste End-->
+
+  <!--Most Selled Product start-->
+  <div
+    class="w-full lg:w-[90%] 2xl:w-[80%] m-auto border-black/20 border-solid border-[1px] rounded-[15px] my-4 flex flex-col gap-y4">
+    <div class="h-[50px] flex justify-center items-end gap-2 font-bold text-[16px]">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2018px;%20height:%2018px;%20fill:%23F9A825'%20width='24'%20height='24'%20%3e%3cdefs%3e%3csymbol%20id='searchTrend'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M12.015%209.105c.222.397.41.73.466.842.361.724.519%201.31.519%202.053a2%202%200%2001-4%200l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087%209.572%204%2011.906%204%2013.889%204%2018.365%207.578%2022%2012%2022c4.422%200%208-3.635%208-8.111%200-2.968-2.45-6.78-7.295-11.598a1%201%200%2000-1.6.262c-.807%201.615-.807%203.28%200%204.894.178.356.582%201.076.91%201.658zM7%2012a4%204%200%20108%200c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532%2050.532%200%2001-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18%208.811%2018%2011.834%2018%2013.889%2018%2017.267%2015.31%2020%2012%2020s-6-2.733-6-6.111c0-.87.33-1.925%201-3.154V12z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cuse%20xlink:href='%23searchTrend'%3e%3c/use%3e%3c/svg%3e"
+        alt="">
+      پرفروش ترین کالا ها
+
+    </div>
+    <div class="relative">
+      <swiper-container class="mostSellItem" slides-per-view="1.2" space-between="5" breakpoints='{
+        "400": {"slidesPerView": 1.5},
+        "640": {"slidesPerView": 2},
+        "768": {"slidesPerView": 2.5},
+        "900": {"slidesPerView": 3},
+        "1250": {"slidesPerView": 3.6}
+    }'>
+      </swiper-container>
+      <div class="custom-nextMostSell"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_226_'%20d='M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21%20l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001%20c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z'/%3e%3c/svg%3e"
+          alt="Next">
+      </div>
+      <div class="custom-prevMostSell"><img width="20px" height="20px"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='iso-8859-1'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill='%23000000'%20height='800px'%20width='800px'%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0%200%20330.002%20330.002'%20xml:space='preserve'%3e%3cpath%20id='XMLID_227_'%20d='M233.25,306.001L127.5,165.005L233.25,24.001c4.971-6.628,3.627-16.03-3-21c-6.627-4.971-16.03-3.626-21,3%20L96.75,156.005c-4,5.333-4,12.667,0,18l112.5,149.996c2.947,3.93,7.451,6.001,12.012,6.001c3.131,0,6.29-0.978,8.988-3.001%20C236.878,322.03,238.221,312.628,233.25,306.001z'/%3e%3c/svg%3e"
+          alt="Prev">
+      </div>
+    </div>
+  </div>
+  <!--Most Selled Product End-->
+
+  <!--Client taste 2 Start-->
+  <div
+    class="clientTasteItems2 w-full lg:w-[90%] 2xl:w-[80%] m-auto my-[30px] border-black/20 border-solid border-[1px] rounded-[15px] flex justify-between flex-wrap">
+  </div>
+  <!--Client taste 2 End-->
+
+  <!--Selected offer Products  -->
+  <div
+    class="w-full lg:w-[90%] 2xl:w-[80%] h-fit m-auto my-[40px] border-solid border-[0.5px] border-black/20 rounded-[15px]">
+    <div class="text-center flex justify-center items-center gap-2 my-4 font-bold text-[17px]">
+      <img
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%23EF4056'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='discount'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M22%204a1%201%200%20011%201v14a1%201%200%2001-1%201H6a1%201%200%2001-.707-.293l-4-4A1%201%200%20011%2015V9a1%201%200%2001.293-.707l4-4A1%201%200%20016%204h16zm-1%202H6.414L3%209.414v5.172L6.414%2018H21V6zm-6%203.5a1.5%201.5%200%2011-3%200%201.5%201.5%200%20013%200zm2.5%206.5a1.5%201.5%200%20100-3%201.5%201.5%200%20000%203zM10%2012a3%203%200%2011-6%200%203%203%200%20016%200zm-4%200a1%201%200%20102%200%201%201%200%2000-2%200zm12.848-3.47l-5%208-1.696-1.06%205-8%201.696%201.06z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20fill-rule='evenodd'%20d='M22%204a1%201%200%20011%201v14a1%201%200%2001-1%201H6a1%201%200%2001-.707-.293l-4-4A1%201%200%20011%2015V9a1%201%200%2001.293-.707l4-4A1%201%200%20016%204h16zm-1%202H6.414L3%209.414v5.172L6.414%2018H21V6zm-6%203.5a1.5%201.5%200%2011-3%200%201.5%201.5%200%20013%200zm2.5%206.5a1.5%201.5%200%20100-3%201.5%201.5%200%20000%203zM10%2012a3%203%200%2011-6%200%203%203%200%20016%200zm-4%200a1%201%200%20102%200%201%201%200%2000-2%200zm12.848-3.47l-5%208-1.696-1.06%205-8%201.696%201.06z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+        alt="">
+      منتخب محصولات تخفیف و حراج
+    </div>
+    <div class="SelectedOfferProducts flex justify-around flex-wrap p-[20p]"></div>
+  </div>
+
+  <!--Selected offer Products  -->
+
+  <!--Reading Blog Start-->
+  <div class="w-full lg:w-[90%] 2xl:w-[80%] h-fit m-auto my-[40px]">
+    <div class="w-[95%] lg:w-full m-auto flex justify-between items-center">
+      <div class="text-[18px] font-bold">خواندنی ها</div>
+      <a href="#" class="text-blue text-[12px] flex justify-center items-center">
+        مطالب بیشتر در دیجیکالا مگ
+        <img
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20%2314C5DC'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='chevronLeft'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt=""></a>
+    </div>
+    <div class="readingBlogItem w-[95%] lg:w-full m-auto lg:flex justify-between items-center"></div>
+  </div>
+  </div>
+  <!--Reading Blog End-->
+
+  <hr class="w-full h-[0.5px] my-[50px]">
+
+  <!--Footer desktop Start-->
+  <div class="hidden lg:block">
+    <!--Top part of header Start-->
+    <div class="p-[20px] flex justify-between items-center ">
+      <div class="w-[200px] h-[30px]"><img src="/assets/digikalaIcon-CsCL3ZHX.svg" alt=""></div>
+      <button
+        class="goToTopBTN flex justify-center items-center text-[#A1A3A8] border-solid border-[1px] border-[#A1A3A8] p-2 rounded-md text-[12px]">
+        بازگشت به بالا
+        <img
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%23A1A3A8'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </button>
+    </div>
+    <!--Top part of header End-->
+
+    <!--support Numbers Start -->
+    <div class=" flex justify-start items-center gap-4 px-[20px]">
+      <div class="text-[#9DACC9] text-[13px]">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</div>
+      <span class="w-[1.5px] h-[15px] bg-[#9DACC9] block"></span>
+      <div class="text-[#9DACC9] text-[13px]">۰۲۱-۹۱۰۰۰۱۰۰</div>
+      <span class="w-[1.5px] h-[15px] bg-[#9DACC9] block"></span>
+      <div class="text-[#9DACC9] text-[13px]">۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</div>
+    </div>
+    <!--support Numbers End -->
+
+    <!--Features Start -->
+    <div class="features flex justify-around items-center my-[40px]"></div>
+    <!--Features End -->
+
+    <!--Pages Start -->
+    <div class="px-[20px] flex justify-between items-start">
+      <div class="">
+        <div class="mb-4">با دیجیکالا</div>
+        <div class="withDigikala flex flex-col gap-4 text-[14px]">
+        </div>
+      </div>
+      <div class="">
+        <div class="mb-4">خدمات مشتریان</div>
+        <div class="customer flex flex-col gap-4 text-[14px]">
+        </div>
+      </div>
+      <div class="">
+        <div class="mb-4">راهنمای خرید از دیجیکالا</div>
+        <div class="guide flex flex-col gap-4 text-[14px]">
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="">همراه ما باشید!</div>
+        <div class="flex justify-start items-center gap-4">
+          <img
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2040px;%20height:%2040px;%20fill:%20var(--color-icon-low-emphasis);'%20width='40'%20height='40'%3e%3cdefs%3e%3csymbol%20id='instagram'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill-rule='evenodd'%20d='M16.033%203H7.967A4.973%204.973%200%20003%207.967v8.066A4.973%204.973%200%20007.967%2021h8.066A4.973%204.973%200%200021%2016.033V7.967A4.973%204.973%200%200016.033%203zm3.37%2013.033a3.374%203.374%200%2001-3.37%203.37H7.967a3.374%203.374%200%2001-3.37-3.37V7.967a3.374%203.374%200%20013.37-3.37h8.066a3.374%203.374%200%20013.37%203.37v8.066zM7.362%2012A4.643%204.643%200%200112%207.362%204.643%204.643%200%200116.638%2012%204.643%204.643%200%200112%2016.638%204.643%204.643%200%20017.362%2012zM12%2015.041a3.044%203.044%200%2001-3.041-3.04A3.045%203.045%200%200112%208.958%203.045%203.045%200%200115.041%2012%203.044%203.044%200%200112%2015.041zm4.005-8.69c.218-.219.52-.343.828-.343.308%200%20.61.124.828.343a1.176%201.176%200%20010%201.656c-.218.218-.52.343-.828.343a1.18%201.18%200%2001-.828-.343%201.18%201.18%200%2001-.343-.828c0-.309.125-.611.343-.828z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20fill-rule='evenodd'%20d='M16.033%203H7.967A4.973%204.973%200%20003%207.967v8.066A4.973%204.973%200%20007.967%2021h8.066A4.973%204.973%200%200021%2016.033V7.967A4.973%204.973%200%200016.033%203zm3.37%2013.033a3.374%203.374%200%2001-3.37%203.37H7.967a3.374%203.374%200%2001-3.37-3.37V7.967a3.374%203.374%200%20013.37-3.37h8.066a3.374%203.374%200%20013.37%203.37v8.066zM7.362%2012A4.643%204.643%200%200112%207.362%204.643%204.643%200%200116.638%2012%204.643%204.643%200%200112%2016.638%204.643%204.643%200%20017.362%2012zM12%2015.041a3.044%203.044%200%2001-3.041-3.04A3.045%203.045%200%200112%208.958%203.045%203.045%200%200115.041%2012%203.044%203.044%200%200112%2015.041zm4.005-8.69c.218-.219.52-.343.828-.343.308%200%20.61.124.828.343a1.176%201.176%200%20010%201.656c-.218.218-.52.343-.828.343a1.18%201.18%200%2001-.828-.343%201.18%201.18%200%2001-.343-.828c0-.309.125-.611.343-.828z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+            alt="instagram">
+          <img
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2040px;%20height:%2040px;%20fill:%20var(--color-icon-low-emphasis);'%20width='40'%20height='40'%3e%3cdefs%3e%3csymbol%20id='twitter'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M21%206.73a7.374%207.374%200%2001-2.12.581%203.708%203.708%200%20001.623-2.041%207.444%207.444%200%2001-2.346.896%203.693%203.693%200%2000-6.292%203.367%2010.483%2010.483%200%2001-7.61-3.858%203.665%203.665%200%2000-.5%201.856%203.69%203.69%200%20001.642%203.073%203.692%203.692%200%2001-1.673-.464v.046a3.696%203.696%200%20002.962%203.621c-.31.083-.636.13-.973.13-.238%200-.47-.024-.695-.07a3.695%203.695%200%20003.448%202.565%207.409%207.409%200%2001-4.585%201.579c-.298%200-.592-.018-.881-.051a10.437%2010.437%200%20005.66%201.661c6.793%200%2010.506-5.626%2010.506-10.505l-.013-.478A7.373%207.373%200%200021%206.73z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M21%206.73a7.374%207.374%200%2001-2.12.581%203.708%203.708%200%20001.623-2.041%207.444%207.444%200%2001-2.346.896%203.693%203.693%200%2000-6.292%203.367%2010.483%2010.483%200%2001-7.61-3.858%203.665%203.665%200%2000-.5%201.856%203.69%203.69%200%20001.642%203.073%203.692%203.692%200%2001-1.673-.464v.046a3.696%203.696%200%20002.962%203.621c-.31.083-.636.13-.973.13-.238%200-.47-.024-.695-.07a3.695%203.695%200%20003.448%202.565%207.409%207.409%200%2001-4.585%201.579c-.298%200-.592-.018-.881-.051a10.437%2010.437%200%20005.66%201.661c6.793%200%2010.506-5.626%2010.506-10.505l-.013-.478A7.373%207.373%200%200021%206.73z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+            alt="twiter">
+          <img
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2040px;%20height:%2040px;%20fill:%20var(--color-icon-low-emphasis);'%20width='40'%20height='40'%3e%3cdefs%3e%3csymbol%20id='linkedin'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3e%3cpath%20fill-rule='evenodd'%20d='M6.4%204h19.2C26.92%204%2028%205.08%2028%206.4v19.2c0%201.32-1.08%202.4-2.4%202.4H6.4C5.08%2028%204%2026.92%204%2025.6V6.4C4%205.08%205.08%204%206.4%204zm1.2%2020.4h3.6V13.6H7.6v10.8zm1.8-12.84c-1.2%200-2.16-.96-2.16-2.16%200-1.2.96-2.16%202.16-2.16%201.2%200%202.16.96%202.16%202.16%200%201.2-.96%202.16-2.16%202.16zM20.8%2024.4h3.6v-6.84c0-2.28-1.92-4.2-4.2-4.2-1.08%200-2.4.72-3%201.68V13.6h-3.6v10.8h3.6v-6.36c0-.96.84-1.8%201.8-1.8.96%200%201.8.84%201.8%201.8v6.36z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20fill-rule='evenodd'%20d='M6.4%204h19.2C26.92%204%2028%205.08%2028%206.4v19.2c0%201.32-1.08%202.4-2.4%202.4H6.4C5.08%2028%204%2026.92%204%2025.6V6.4C4%205.08%205.08%204%206.4%204zm1.2%2020.4h3.6V13.6H7.6v10.8zm1.8-12.84c-1.2%200-2.16-.96-2.16-2.16%200-1.2.96-2.16%202.16-2.16%201.2%200%202.16.96%202.16%202.16%200%201.2-.96%202.16-2.16%202.16zM20.8%2024.4h3.6v-6.84c0-2.28-1.92-4.2-4.2-4.2-1.08%200-2.4.72-3%201.68V13.6h-3.6v10.8h3.6v-6.36c0-.96.84-1.8%201.8-1.8.96%200%201.8.84%201.8%201.8v6.36z'%20clip-rule='evenodd'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+            alt="linkedin">
+          <img src="/assets/aparat-C7bW7sGI.svg" alt="aparat">
+        </div>
+        <div class="">با ثبت ایمیل , از جدیدترین تخفیف ها باخبر شوید</div>
+        <div class="w-full">
+          <input class="w-[79%] h-[40px] rounded-lg bg-[#F0F0F1]" type="email" name="email" placeholder="ایمیل شما">
+          <button class="w-[19%] h-[40px] rounded-lg bg-[#E0E0E2] text-white" type="button" name="email">ثبت</button>
+        </div>
+      </div>
+    </div>
+    <!--Pages End -->
+
+    <!--Download Start -->
+    <div class="w-[98%] m-auto rounded-md bg-[#3C4B6D] flex justify-between items-center my-[30px]">
+      <div class="flex justify-center items-center gap-4 p-[15px]">
+        <img width="44px" height="44px" src="/assets/digikalaAppIcon-B3IynsWK.png" alt="DigikalaApp">
+        <div class="text-white">دانلود اپلیکیشن دیجیکالا</div>
+      </div>
+      <div class=" flex justify-center items-center gap-4">
+        <div class="w-[142px] h-[44px] bg-white flex justify-center items-center"><img src="/assets/bazar-Xtd6d4aY.svg"
+            alt="threeDot"></div>
+        <div class="w-[142px] h-[44px] bg-white flex justify-center items-center"><img src="/assets/mayket-DUFU7fRT.svg"
+            alt="threeDot"></div>
+        <div class="w-[142px] h-[44px] bg-white flex justify-center items-center"><img src="/assets/sibApp-s5CDTIY3.svg"
+            alt="threeDot"></div>
+        <div class="w-[44px] h-[44px] bg-white flex justify-center items-center rounded-md ml-[20px]"><img
+            src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16%2012C16%2013.1%2016.9%2014%2018%2014C19.1%2014%2020%2013.1%2020%2012C20%2010.9%2019.1%2010%2018%2010C16.9%2010%2016%2010.9%2016%2012ZM12%2010C10.9%2010%2010%2010.9%2010%2012C10%2013.1%2010.9%2014%2012%2014C13.1%2014%2014%2013.1%2014%2012C14%2010.9%2013.1%2010%2012%2010ZM4%2012C4%2010.9%204.9%2010%206%2010C7.1%2010%208%2010.9%208%2012C8%2013.1%207.1%2014%206%2014C4.9%2014%204%2013.1%204%2012Z'%20fill='%23424750'/%3e%3c/svg%3e"
+            alt="threeDot"></div>
+      </div>
+    </div>
+    <!--Download End -->
+
+    <hr class="w-full h-[1.5px] bg-black/20 my-[20px]">
+
+    <!--read More Start-->
+    <div class="w-full px-[20px] ">
+      <div class="flex justify-between items-start">
+        <div class="w-[69%] text-[14px] text-[#62666D]">
+          <div class="flex font-bold text-[18px] text-[#62666D]">فروشگاه اینترنتی دیجیکالا , بررسی , انتخاب و خرید
+            آنلاین</div>
+          <p class="readMoreText text-black/50">یک خرید مطمئن اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+            متنوع، باکیفیت و دارای قیمت مناسب را
+            در
+            مدت زمان ی کوتاه به دست
+            مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر
+            روی
+            آن‌ها کار
+            کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.
+            <span class="moreText hidden text-black/50">و همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد. هر یک از
+              روش های ارسال دیجی کالا شرایط و ویژگی‌های خاص خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و
+              پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی‌کالا، این فروشگاه اینترنتی در بخشی از وب‌سایت
+              خود راهنمای کاملی از شیوه‌‌های ارسال را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل 8 نوع
+              ارسال کالا به روش‌های زیر است: ارسال امروز، دریافت حضوری، دریافت از گنجه، ارسال توسط فروشنده، ارسال عادی،
+              ارسال کالاهای بزرگ، سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست
+
+              کدام محصولات در دیجی‌کالا قابل سفارش هستند؟
+
+              تقریبا می‌توان گفت محصولی وجود ندارد که دیجی‌کالا برای مشتریان خود در سراسر کشور فراهم نکرده باشد. شما
+              می‌توانید در تمامی روزهای هفته و تمامی شبانه روز دیجی‌کالا که محصولات دارای تخفیف عالی می‌شوند، سفارش خود
+              را به سادگی ثبت کرده و در روز و محدوده زمانی مناسب خود، درب منزل تحویل بگیرید. بعضی از گروه‌های اصلی و زیر
+              مجموعه‌های پرطرفدار محصولات دیجی‌کالا شامل مواردی می‌شود که در ادامه به معرفی آن‌ها می‌پردازیم که امکان
+              ارسال امروز برای آن ها وجود دارد.
+
+              دیجی کالا در جشنواره‌های سالیانه خود به طور معمول روی تمام دسته بندی‌های کالایی تخفیف‌های عالی
+              قرار‌می‌دهد. به عنوان مثال در زمان بلک فرایدی یا حراج جمعه سیاه، در این سال‌ها بیشترین درصد تخفیف در
+              اختیار مشتریان دیجی‌کالا قرار گرفته‌است و شامل دسته بندی های مختلف از موبایل و لپ تاپ تا عطر و لباس و حتی
+              غذای حیوانات خانگی بوده‌است.
+
+              کالای دیجیتال
+
+              انواع گوشی موبایل از برندهای مختلفی مثل آیفون، گوشی سامسونگ، گوشی نوکیا، گوشی شیائومی، گوشی هواوی، و...،
+              انواع کنسول بازی ps4 و ps5، انواع تبلت‌های پرطرفدار مثل تبلت سامسونگ نوت 10، انواع هندزفری مثل هندزفری بی
+              سیم، تلوزیون از برندهای مختلف مثل تلویزیون سامسونگ، سونی و...، انواع مانیتور، کیس، کیبورد، مودم از برندهای
+              مختلف مثل مودم ایرانسل، آنتن و ... تنها بخشی از محصولاتی هستند که زیر مجموعه کالای دیجیتال در دیجی‌کالا
+              قرار دارند.
+
+              خودرو، ابزار و تجهیزات صنعتی
+
+              انواع خودروهای ایرانی و خارجی از برندهای مطرحی مثل هوندا، کیا و...، موتور سیکلت از برندهایی مثل کویر موتور
+              و...، لوازم جانبی خودرو مثل سیستم صوتی تصویر، ضبط و...، لوازم یدکی مثل دیسک و صفحه کلاج و... و لوازم مصرفی
+              خودرو مثل کفپوش سانا در این گروه قرار می‌گیرند.
+
+              مد و پوشاک
+
+              محصولاتی مثل انواع لباس مثل لباس مجلسی زنانه و مردانه، لباس راحتی، لباس ورزشی، اکسسوری، کیف، کفش، عینک
+              آفتابی، لباس زیر، شال و روسری و... جزو مواردی هستند که می‌توانید آن‌ها را از برندهای مطرح ایرانی و خارجی
+              موجود در دیجی کالا مثل آدیداس، نایکی، دبنهامز، آلدو، درسا و... خریداری کنید.
+
+              اسباب بازی کودک و نوزاد
+
+              در این دسته از کالاهای دیجی‌کالا، انواع لوازم بهداشتی و حمام کودک و نوزاد، انواع پوشاک و کفش، تبلت،
+              اسباب‌بازی، لوازم اتاق خواب کودک، لوازم ایمنی، لوازم شخصی و غذا خوری و ... قرار می‌گیرد تا خرید را برای
+              پدر و مادرها به کاری سریع و آسان تبدیل کند.
+
+              کالاهای سوپر مارکتی
+
+              هر چیزی از مواد خوراکی که به آن نیاز دارید، در سوپرمارکت دیجی‌کالا پیدا می‌شود، محصولات پرطرفداری مثل کره
+              بادام‌زمینی، عسل، سس، قهوه، زعفران، شکلات، انواع نان و ... از برندهای معتبر و معروفی مثل نستله، نوتلا،
+              استارباکس، مزمز، چی توز و ... همگی در اختیار شما هستند و تا رسیدن به آشپزخانه شما تنها چند کلیک فاصله
+              دارند.
+
+              زیبایی و سلامت
+              انواع لوازم آرایش مثل لاک، رنگ مو، لوازم آرایش لب، چشم، صورت و... همگی در دیجی‌کالا موجود هستند. همچنین
+              محصولات بهداشتی مثل انواع شامپو، کرم ضد آفتاب، ماسک صورت، ضد تعریق، ماسک مو و...، انواع لوازم شخصی برقی،
+              ست هدیه، بهترین انواع عطر و اسپری، کرم پودر، ریمل و رژلب وانواع زیورآلات طلا و نقره مثل سرویس طلا، سرویس
+              نقره و... به همراه وسایل مراقبت شخصی طبی در گروه زیبایی و سلامت دیجی‌کالا قرار می‌گیرد. در این بخش برندهای
+              مطرحی مثل اسنس، پنبه ریز، سینره و... حضور دارند.همچنین میتوانید انواع مکمل غذایی و دارویی مثل داروی مناسب
+              سرماخوردگی را در دیجی کالا تهیه کنید.
+
+              خانه و آشپزخانه
+
+              یکی از متنوع‌ترین بخش‌های دیجی‌کالا، بخش لوازم خانه و آشپزخانه است که از محصولاتی مثل صندلی گیمینگ در بخش
+              صندلی‌ها گرفته تا انواع مبل راحتی، انواع آبگرمکن مثل آبگرمکن بوتان، لباسشویی‌های متنوع مثل انواع لباسشویی
+              اسنوا، شیرآلات مختلف مثل شیرآلات قهرمان و...، ظروف و همچنین لوازم برقی آشپزخانه مثل توستر و... را شامل
+              می‌شود و امکان خریدی عالی را برای مشتریان فراهم کرده است. در بخش لوازم خانگی دیجی‌کالا، برندهای معتبری مثل
+              تفال، اخوان، فیلیپس، ال جی، اسنوا، جی پلاس و... حضور دارند.
+
+              کتاب، لوازم تحریر و هنر
+
+              بخش هنر، کتاب، رمان و لوازم تحریر دیجی‌کالا نیز یکی از متنوع‌ترین بخش‌های این فروشگاه اینترنتی است. انواع
+              کتاب و مجله، کتاب زبان، بازی، لوازم تحریر با طرح‌های مختلف مانند دختر کفشدوزکی، سازهایی مثل پیانو، سنتور،
+              هنگ درام و... با بهترین قیمت‌ها و از بهترین برندها در دسترس شما قرار دارند.
+
+              ورزش و سفر
+
+              هر نوع وسیله و لباس ورزشی که فکرش را کنید، انواع وسایل کمپینگ و کوهنوردی، ساک و قمقمه ورزشی و وسایل سفر
+              اربعین و... در این بخش قرار می‌گیرند. همچنین شما می‌توانید وسایل مد نظر خود را بر اساس نوع ورزش (آبی،
+              هوازی، بدنسازی و...) در دسته‌بندی‌های دیجی‌کالا پیدا کنید.
+
+              محصولات بومی و محلی
+
+              و در آخر دیجی‌کالا از طریق به فروش رساندن محصولات بومی و سنتی متفاوتی مثل انواع خوراکی، گلیم و گبه، ابزار
+              و ... تلاش کرده تا بین هنر ایرانی و متقاضیان آن کوتاه‌ترین راه را پیدا کند. در این بخش شما می‌توانید انواع
+              محصولات از جمله ظروف زیبای مخصوص به سفره هفت‌سین و پذیرایی از مهمانان در روزهای نوروز، انواع آیینه و
+              شمعدان و هر آن چیزی را که برای خلق زیبایی در روزهای بهاری به آن نیاز دارید، با قیمت مناسب و تنوع بسیار
+              بالا انتخاب کنید. همچنین در صفحه برچسب ها، امکان مشاهده و خرید انواع محصولات با طرح های بومی وجود دارد.
+              دیجی‌کالا همچنین برای اینکه حال و هوای عید را به اعضای خود هدیه کند، تقویم ۱۴۰۱، انواع ایده عکس پروفایل
+              عید نوروز، آهنگ‌های عید نوروز و موزیک‌های شاد بهاری، وسایل مربوط به خانه‌تکانیی و انواع لباس های عید را
+              برای شما فراهم کرده است تا بتوانید در کنار خرید خود، از این حال و هوای تازه نهایت لذت را ببرید.</span>
+          </p>
+          <div class="flex"><button class="readMoreBTN text-blue">مشاهده بیشتر</button>
+            <img
+              src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20%2314C5DC'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='chevronLeft'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+              alt="">
+          </div>
+
+        </div>
+        <div class="w-[28%] flex justify-center items-center gap-3 mr-[10px]">
+          <div
+            class="w-[30%] h-[110px] border-solid border-[1px] border-black/20 rounded-lg flex justify-center items-center">
+            <img width="74px" height="74px" src="/assets/samandehi-Br2CtcOA.png" alt="samandehi">
+          </div>
+          <div
+            class="w-[30%] h-[110px] border-solid border-[1px] border-black/20 rounded-lg  flex justify-center items-center">
+            <img width="74px" height="74px" src="/assets/kasbokar-BsCZpt-U.png" alt="kasbokar">
+          </div>
+          <div
+            class="w-[30%] h-[110px] border-solid border-[1px] border-black/20 rounded-lg  flex justify-center items-center">
+            <img width="74px" height="74px"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+P///38ACfsD/QVDRcoAAAAASUVORK5CYII="
+              alt="Enamad">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--read More End-->
+
+    <hr class="w-full h-[1.5px] bg-black/20 my-[20px]">
+
+    <!--copy Write Start-->
+    <div class="w-[70%] m-auto text-black/70 text-center text-[12px] mb-[20px]">برای استفاده از مطالب دیجی‌کالا، داشتن
+      «هدف غیرتجاری» و ذکر
+      «منبع» کافیست. تمام حقوق اين وب‌سايت نیز
+      برای شرکت نوآوران
+      فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</div>
+    <!--copy Write End-->
+
+    <!--Digikala childrens Start-->
+    <div class="digiChild w-full bg-[#F0F0F1] flex flex-wrap">
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="/assets/digiMag-B1VEmhXT.svg" alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='75.29'%20height='20'%20viewBox='0%200%2064%2017'%20fill='none'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M8.49816%204.02398H4.24908C1.90238%204.02398%200%205.7095%200%207.78869V8.72987C0%2010.8091%201.90238%2012.4946%204.24908%2012.4946H10.6227V0.259277H8.49816V4.02398ZM8.49817%2010.6122H4.24909C3.07574%2010.6122%202.12455%209.76946%202.12455%208.72986V7.78869C2.12455%206.74909%203.07574%205.90633%204.24909%205.90633H8.49817V10.6122ZM11.685%204.02397H13.8095V12.4946H11.685V4.02397ZM14.8718%208.72985V7.78868C14.8718%205.70949%2016.7742%204.02397%2019.1209%204.02397H25.4945V12.4946C25.4945%2014.5737%2023.5921%2016.2593%2021.2454%2016.2593H19.1209L17.9258%2014.3769H21.2454C22.4188%2014.3769%2023.37%2013.5342%2023.37%2012.4946H19.1209C16.7742%2012.4946%2014.8718%2010.809%2014.8718%208.72985ZM19.1209%2010.6122H23.37V5.90633H19.1209C17.9475%205.90633%2016.9963%206.74909%2016.9963%207.78869V8.72986C16.9963%209.76946%2017.9475%2010.6122%2019.1209%2010.6122ZM61.6117%204.02397V10.6122H57.3626C56.1892%2010.6122%2055.2381%209.76945%2055.2381%208.72985V4.02397H53.1135V8.72985C53.1135%2010.809%2055.0159%2012.4946%2057.3626%2012.4946H61.6117C61.6117%2013.5342%2060.6605%2014.3769%2059.4871%2014.3769H56.1675L57.3626%2016.2593H59.4871C61.8338%2016.2593%2063.7362%2014.5737%2063.7362%2012.4946V4.02397H61.6117ZM41.4285%207.78868V8.72985C41.4285%2010.809%2043.3309%2012.4946%2045.6776%2012.4946H52.0512V4.02397H45.6776C43.3309%204.02397%2041.4285%205.70949%2041.4285%207.78868ZM49.9267%2010.6122H45.6776C44.5043%2010.6122%2043.5531%209.76946%2043.5531%208.72986V7.78869C43.5531%206.74909%2044.5043%205.90633%2045.6776%205.90633H49.9267V10.6122ZM29.7435%204.02397H36.1172C38.4639%204.02397%2040.3662%205.70949%2040.3662%207.78868V8.72985C40.3662%2010.809%2038.4639%2012.4946%2036.1172%2012.4946H31.8681V16.2593H29.7435V4.02397ZM36.1172%2010.6122C37.2905%2010.6122%2038.2417%209.76946%2038.2417%208.72986V7.78869C38.2417%206.74909%2037.2905%205.90633%2036.1172%205.90633H31.8681V10.6122H36.1172ZM13.8095%200.259277H11.685V2.14163H13.8095V0.259277ZM26.5567%204.02397H28.6813V12.4946H26.5567V4.02397ZM28.6813%200.259277H26.5567V2.14163H28.6813V0.259277Z'%20fill='%23424750'/%3e%3c/svg%3e"
+          alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='132.31'%20height='20'%20viewBox='0%200%2086%2013'%20fill='none'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M29.532%206.26131V5.57149H22.7628V6.95137H27.9665C27.5949%209.18007%2025.4022%2010.9076%2022.7617%2010.9076C19.8611%2010.9076%2017.5014%208.82333%2017.5014%206.26131C17.5014%203.69953%2019.8611%201.61501%2022.7617%201.61501C24.4617%201.61501%2026.0657%202.34691%2027.0521%203.57233L28.2992%202.78926C27.0261%201.20757%2024.956%200.263581%2022.7617%200.263581C19.0173%200.263581%2015.9711%202.954%2015.9711%206.26131C15.9711%209.56862%2019.0173%2012.2593%2022.7617%2012.2593C26.5061%2012.2593%2029.5521%209.56862%2029.532%206.26131ZM69.1064%2010.7622V0.446497H67.6186V12.0761H75.727V10.7622H69.1064ZM65.218%200.446497L61.0808%206.3548L56.9434%200.446497H55.1932L60.3285%207.78035V12.0761H61.8166V7.80378L66.9684%200.446497H65.218ZM43.0232%2011.2541C43.8502%2010.6353%2044.2871%209.72858%2044.2871%208.63252C44.2871%207.51757%2043.7763%206.67329%2042.7695%206.12263C41.9468%205.67287%2040.7833%205.41224%2039.1079%205.3025C36.0555%205.05311%2036.0552%203.91042%2036.0552%203.53455C36.0552%202.34763%2037.2293%201.58058%2039.0462%201.58058C40.8878%201.58058%2042.2768%202.42079%2042.2768%203.53455H43.7727C43.7727%201.66761%2041.7406%200.259277%2039.0462%200.259277C36.4044%200.259277%2034.5596%201.60616%2034.5596%203.53455C34.5596%204.45534%2035.0022%205.2224%2035.8403%205.75321C36.5747%206.21803%2037.6302%206.5095%2038.9777%206.61877L38.991%206.61997C42.4974%206.84831%2042.7914%207.77868%2042.7914%208.63252C42.7914%209.19466%2042.7914%2010.9062%2039.2571%2010.9062C37.0519%2010.9062%2035.5119%209.90122%2035.5119%208.46252H34.016C34.016%2010.6439%2036.2201%2012.2272%2039.2571%2012.2272C40.8935%2012.2272%2042.1607%2011.8999%2043.0232%2011.2541ZM85.4778%201.69487V0.446497H77.2148V12.0761H85.4778V10.7622H78.7024V6.91646H84.1327V5.60233H78.7024V1.69487H85.4778ZM54.5%200.439802H44.2982V1.75393H48.6549V12.079H50.1427V1.75393H54.5V0.439802ZM31.0198%2012.0764H32.5076V0.446497H31.0198V12.0764ZM12.9836%2012.0764H14.4714V0.446497H12.9836V12.0764ZM0%2012.0761V0.446497H4.90084C8.49148%200.446497%2011.42%202.99847%2011.4833%206.15682C11.5488%209.42157%208.50691%2012.0761%204.81043%2012.0761H0ZM1.4878%2010.762H4.82099C7.61927%2010.762%209.9568%208.79918%209.99741%206.32778C10.0386%203.81574%207.73702%201.76062%204.90247%201.76062H1.4878V10.762Z'%20fill='%23424750'/%3e%3c/svg%3e"
+          alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='67.6'%20height='20'%20viewBox='0%200%20338%20100'%20fill='%23424750'%3e%3cpath%20d='M54.7868%200H45.2227C43.1386%200%2041.4065%201.53963%2041.0735%203.59248C37.933%2022.7713%2022.7827%2037.911%203.58776%2041.0568C1.53218%2041.399%200%2043.1192%200%2045.2005V54.5334C0%2056.6147%201.53218%2058.3349%203.58776%2058.6771C22.8683%2061.8419%2038.0567%2077.0956%2041.1115%2096.3885C41.4351%2098.4509%2043.1671%20100%2045.2608%20100H54.7393C56.8329%20100%2058.5649%2098.4509%2058.8885%2096.3885C61.9338%2077.0956%2077.1317%2061.8419%2096.4123%2058.6771C98.4678%2058.3444%20100%2056.6147%20100%2054.5334V45.2005C100%2043.1192%2098.4678%2041.399%2096.4123%2041.0568C77.2174%2037.9015%2062.067%2022.7618%2058.9265%203.59248C58.5935%201.53963%2056.8615%200%2054.7773%200M50.0095%2072.9709C44.5185%2063.3625%2036.5436%2055.3602%2026.9414%2049.8574C36.5436%2044.3547%2044.5185%2036.3524%2050%2026.744C55.4815%2036.3524%2063.4564%2044.3547%2073.0586%2049.8574C63.4564%2055.3602%2055.4815%2063.3625%2050%2072.9709'/%3e%3cpath%20d='M319.21%2042.8572H297.776C295.806%2042.8572%20294.203%2041.2538%20294.203%2039.2834C294.203%2037.3129%20295.806%2035.7095%20297.776%2035.7095H321.74C322.368%2035.7095%20322.977%2035.4584%20323.421%2035.0141L329.226%2029.3153C329.671%2028.8709%20329.922%2028.2624%20329.922%2027.6346V24.3409C329.922%2022.7278%20328.618%2021.4238%20327.005%2021.4238H298.114C288.436%2021.4238%20280.187%2028.9482%20279.849%2038.6266C279.492%2048.7879%20287.615%2057.1429%20297.699%2057.1429H319.055C320.919%2057.1429%20322.59%2058.5048%20322.764%2060.3594C322.967%2062.494%20321.296%2064.2809%20319.21%2064.2809H287.982C287.354%2064.2809%20286.794%2064.4258%20286.34%2064.8701L280.632%2070.6752C280.187%2071.1195%20279.936%2071.7281%20279.936%2072.3559V75.6496C279.936%2077.2627%20281.24%2078.5666%20282.853%2078.5666H318.785C328.463%2078.5666%20336.712%2071.0326%20337.06%2061.3543C337.417%2051.193%20329.294%2042.8476%20319.21%2042.8476'/%3e%3cpath%20d='M269.901%2021.4818H261.295C259.73%2021.4818%20258.465%2022.7472%20258.465%2024.3119V64.252H258.426L234.163%2064.2617C231.806%2064.2617%20229.893%2062.3492%20229.893%2059.9924V24.3023C229.893%2022.7375%20228.628%2021.4722%20227.063%2021.4722H218.467C216.902%2021.4722%20215.627%2022.7375%20215.627%2024.3023V57.1526C215.627%2068.956%20225.199%2078.5281%20237.002%2078.5281H250.602C251.076%2078.5281%20251.53%2078.3349%20251.868%2078.0065L258.436%2071.4287H258.445V75.698C258.445%2077.2627%20259.711%2078.5281%20261.276%2078.5281H269.882C271.446%2078.5281%20272.712%2077.2627%20272.712%2075.698V24.3023C272.712%2022.7375%20271.446%2021.4722%20269.882%2021.4722'/%3e%3cpath%20d='M132.83%20100H141.436C143.001%20100%20144.276%2098.7348%20144.276%2097.1701V78.5861H165.748C177.561%2078.5861%20187.143%2069.0044%20187.143%2057.1914V42.8767C187.143%2031.054%20177.561%2021.4819%20165.748%2021.4819H152.129C151.646%2021.4819%20151.192%2021.6655%20150.864%2022.0035L144.286%2028.5813H144.276V24.312C144.276%2022.7473%20143.001%2021.4819%20141.436%2021.4819H132.83C131.265%2021.4819%20130%2022.7473%20130%2024.312V97.1701C130%2098.7348%20131.275%20100%20132.83%20100ZM168.597%2035.758C170.954%2035.758%20172.876%2037.6705%20172.876%2040.0273V60.0408C172.876%2062.3976%20170.954%2064.3101%20168.597%2064.3101H144.315V35.758H168.597Z'/%3e%3cpath%20d='M194.396%202.81078V75.7654C194.396%2077.3205%20195.662%2078.5762%20197.207%2078.5762H205.765C207.32%2078.5762%20208.576%2077.3109%20208.576%2075.7654V2.81078C208.576%201.25567%20207.311%200%20205.765%200H197.207C195.652%200%20194.396%201.26533%20194.396%202.81078Z'/%3e%3c/svg%3e"
+          alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="/assets/digiClub-dHhqMZEC.svg" alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="/assets/digiJet-CuPGfja3.svg" alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="/assets/digiMehr-uNmtHdZS.svg" alt="">
+      </div>
+      <div
+        class="w-[12.5%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiNext.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiExpress.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiGanje.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiFy.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiTech.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiBis.svg " alt="">
+      </div>
+      <div
+        class="w-[16.66%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+        <img height="20px" src="./public/Images/SVG/digiExpress.svg " alt="">
+      </div>
+    </div>
+    <!--Digikala childrens End-->
+  </div>
+  <!--Footer desktop End-->
+
+  <!--Footer Mobile Start-->
+  <div class="block lg:hidden">
+    <button class="goToTopBTN2 w-full flex justify-center items-center text-blue text-center">بازگشت به بالا
+      <img width="24px" height="24px"
+        src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%231CBFD3'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+        alt="toTop">
+    </button>
+    <div class="p-[20px] flex justify-between items-center">
+      <div class="m-[20px] flex gap-[20px]">
+        <img
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='24px'%20height='24px'%20viewBox='0%200%2024%2024'%20id='_24x24_On_Light_Support'%20data-name='24x24/On%20Light/Support'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20id='view-box'%20width='24'%20height='24'%20fill='none'/%3e%3cpath%20id='Shape'%20d='M8,17.751a2.749,2.749,0,0,1,5.127-1.382C15.217,15.447,16,14,16,11.25v-3c0-3.992-2.251-6.75-5.75-6.75S4.5,4.259,4.5,8.25v3.5a.751.751,0,0,1-.75.75h-1A2.753,2.753,0,0,1,0,9.751v-1A2.754,2.754,0,0,1,2.75,6h.478c.757-3.571,3.348-6,7.022-6s6.264,2.429,7.021,6h.478a2.754,2.754,0,0,1,2.75,2.75v1a2.753,2.753,0,0,1-2.75,2.75H17.44A5.85,5.85,0,0,1,13.5,17.84,2.75,2.75,0,0,1,8,17.751Zm1.5,0a1.25,1.25,0,1,0,1.25-1.25A1.251,1.251,0,0,0,9.5,17.751Zm8-6.75h.249A1.251,1.251,0,0,0,19,9.751v-1A1.251,1.251,0,0,0,17.75,7.5H17.5Zm-16-2.25v1A1.251,1.251,0,0,0,2.75,11H3V7.5H2.75A1.251,1.251,0,0,0,1.5,8.751Z'%20transform='translate(1.75%202.25)'%20fill='%23141124'/%3e%3c/svg%3e"
+          alt="">
+        <div class="">
+          <div class="text-[13px] text-black/70">۷ روز هفته، ۲۴ ساعت</div>
+          <div class="">تماس با پشتیبانی</div>
+        </div>
+      </div>
+      <div class="w-fit p-[15px] border-[1px] border-solid border-black rounded-lg">تماس</div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="p-[20px] flex justify-between items-center">
+      <div class="flex gap-[20px]">
+        <img width="44px" height="44px" src="/assets/digikalaAppIcon-B3IynsWK.png" alt="">
+        <div class="">
+          <div class="text-[13px] text-black/70">۷ روز هفته، ۲۴ ساعت</div>
+          <div class="">تماس با پشتیبانی</div>
+        </div>
+      </div>
+      <div class="w-fit p-[15px] border-[1px] border-solid border-black rounded-lg bg-black text-white">دانلود</div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="">
+      <button class="accardionBTN w-full p-[20px] flex justify-between items-center">
+        <div class="text-[14px]">با دیجیکالا</div>
+        <img class="accardionSVG"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </button>
+      <div class="accardionShowMore hidden px-[20px] pb-4 withDigikalaMobile justify-start items-start flex-col gap-3">
+      </div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="">
+      <button class="accardionBTN w-full p-[20px] flex justify-between items-center">
+        <div class="text-[14px]">خدمات مشتریان</div>
+        <img class="accardionSVG"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </button>
+      <div class="accardionShowMore hidden px-[20px] pb-4 customerMobile justify-start items-start flex-col gap-3">
+      </div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="">
+      <button class="accardionBTN w-full p-[20px] flex justify-between items-center">
+        <div class="text-[14px]">راهنمای خرید از دیجیکالا</div>
+        <img class="accardionSVG"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </button>
+      <div class="accardionShowMore hidden px-[20px] pb-4 guidemobile justify-start items-start flex-col gap-3 bp-4">
+      </div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="">
+      <button class="accardionBTN w-full p-[20px] flex justify-between items-center">
+        <div class="">شرکای تجاری</div>
+        <img class="accardionSVG"
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20var(--color-icon-low-emphasis);'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='expandLess'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M7.707%2014.707l-1.414-1.414%205-5a1%201%200%20011.414%200l5%205-1.414%201.414L12%2010.414l-4.293%204.293z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </button>
+      <div class="accardionShowMore hidden px-[20px] flex-wrap bp-4">
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="/assets/digiMag-B1VEmhXT.svg" alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='75.29'%20height='20'%20viewBox='0%200%2064%2017'%20fill='none'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M8.49816%204.02398H4.24908C1.90238%204.02398%200%205.7095%200%207.78869V8.72987C0%2010.8091%201.90238%2012.4946%204.24908%2012.4946H10.6227V0.259277H8.49816V4.02398ZM8.49817%2010.6122H4.24909C3.07574%2010.6122%202.12455%209.76946%202.12455%208.72986V7.78869C2.12455%206.74909%203.07574%205.90633%204.24909%205.90633H8.49817V10.6122ZM11.685%204.02397H13.8095V12.4946H11.685V4.02397ZM14.8718%208.72985V7.78868C14.8718%205.70949%2016.7742%204.02397%2019.1209%204.02397H25.4945V12.4946C25.4945%2014.5737%2023.5921%2016.2593%2021.2454%2016.2593H19.1209L17.9258%2014.3769H21.2454C22.4188%2014.3769%2023.37%2013.5342%2023.37%2012.4946H19.1209C16.7742%2012.4946%2014.8718%2010.809%2014.8718%208.72985ZM19.1209%2010.6122H23.37V5.90633H19.1209C17.9475%205.90633%2016.9963%206.74909%2016.9963%207.78869V8.72986C16.9963%209.76946%2017.9475%2010.6122%2019.1209%2010.6122ZM61.6117%204.02397V10.6122H57.3626C56.1892%2010.6122%2055.2381%209.76945%2055.2381%208.72985V4.02397H53.1135V8.72985C53.1135%2010.809%2055.0159%2012.4946%2057.3626%2012.4946H61.6117C61.6117%2013.5342%2060.6605%2014.3769%2059.4871%2014.3769H56.1675L57.3626%2016.2593H59.4871C61.8338%2016.2593%2063.7362%2014.5737%2063.7362%2012.4946V4.02397H61.6117ZM41.4285%207.78868V8.72985C41.4285%2010.809%2043.3309%2012.4946%2045.6776%2012.4946H52.0512V4.02397H45.6776C43.3309%204.02397%2041.4285%205.70949%2041.4285%207.78868ZM49.9267%2010.6122H45.6776C44.5043%2010.6122%2043.5531%209.76946%2043.5531%208.72986V7.78869C43.5531%206.74909%2044.5043%205.90633%2045.6776%205.90633H49.9267V10.6122ZM29.7435%204.02397H36.1172C38.4639%204.02397%2040.3662%205.70949%2040.3662%207.78868V8.72985C40.3662%2010.809%2038.4639%2012.4946%2036.1172%2012.4946H31.8681V16.2593H29.7435V4.02397ZM36.1172%2010.6122C37.2905%2010.6122%2038.2417%209.76946%2038.2417%208.72986V7.78869C38.2417%206.74909%2037.2905%205.90633%2036.1172%205.90633H31.8681V10.6122H36.1172ZM13.8095%200.259277H11.685V2.14163H13.8095V0.259277ZM26.5567%204.02397H28.6813V12.4946H26.5567V4.02397ZM28.6813%200.259277H26.5567V2.14163H28.6813V0.259277Z'%20fill='%23424750'/%3e%3c/svg%3e"
+            alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='132.31'%20height='20'%20viewBox='0%200%2086%2013'%20fill='none'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M29.532%206.26131V5.57149H22.7628V6.95137H27.9665C27.5949%209.18007%2025.4022%2010.9076%2022.7617%2010.9076C19.8611%2010.9076%2017.5014%208.82333%2017.5014%206.26131C17.5014%203.69953%2019.8611%201.61501%2022.7617%201.61501C24.4617%201.61501%2026.0657%202.34691%2027.0521%203.57233L28.2992%202.78926C27.0261%201.20757%2024.956%200.263581%2022.7617%200.263581C19.0173%200.263581%2015.9711%202.954%2015.9711%206.26131C15.9711%209.56862%2019.0173%2012.2593%2022.7617%2012.2593C26.5061%2012.2593%2029.5521%209.56862%2029.532%206.26131ZM69.1064%2010.7622V0.446497H67.6186V12.0761H75.727V10.7622H69.1064ZM65.218%200.446497L61.0808%206.3548L56.9434%200.446497H55.1932L60.3285%207.78035V12.0761H61.8166V7.80378L66.9684%200.446497H65.218ZM43.0232%2011.2541C43.8502%2010.6353%2044.2871%209.72858%2044.2871%208.63252C44.2871%207.51757%2043.7763%206.67329%2042.7695%206.12263C41.9468%205.67287%2040.7833%205.41224%2039.1079%205.3025C36.0555%205.05311%2036.0552%203.91042%2036.0552%203.53455C36.0552%202.34763%2037.2293%201.58058%2039.0462%201.58058C40.8878%201.58058%2042.2768%202.42079%2042.2768%203.53455H43.7727C43.7727%201.66761%2041.7406%200.259277%2039.0462%200.259277C36.4044%200.259277%2034.5596%201.60616%2034.5596%203.53455C34.5596%204.45534%2035.0022%205.2224%2035.8403%205.75321C36.5747%206.21803%2037.6302%206.5095%2038.9777%206.61877L38.991%206.61997C42.4974%206.84831%2042.7914%207.77868%2042.7914%208.63252C42.7914%209.19466%2042.7914%2010.9062%2039.2571%2010.9062C37.0519%2010.9062%2035.5119%209.90122%2035.5119%208.46252H34.016C34.016%2010.6439%2036.2201%2012.2272%2039.2571%2012.2272C40.8935%2012.2272%2042.1607%2011.8999%2043.0232%2011.2541ZM85.4778%201.69487V0.446497H77.2148V12.0761H85.4778V10.7622H78.7024V6.91646H84.1327V5.60233H78.7024V1.69487H85.4778ZM54.5%200.439802H44.2982V1.75393H48.6549V12.079H50.1427V1.75393H54.5V0.439802ZM31.0198%2012.0764H32.5076V0.446497H31.0198V12.0764ZM12.9836%2012.0764H14.4714V0.446497H12.9836V12.0764ZM0%2012.0761V0.446497H4.90084C8.49148%200.446497%2011.42%202.99847%2011.4833%206.15682C11.5488%209.42157%208.50691%2012.0761%204.81043%2012.0761H0ZM1.4878%2010.762H4.82099C7.61927%2010.762%209.9568%208.79918%209.99741%206.32778C10.0386%203.81574%207.73702%201.76062%204.90247%201.76062H1.4878V10.762Z'%20fill='%23424750'/%3e%3c/svg%3e"
+            alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px"
+            src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20width='67.6'%20height='20'%20viewBox='0%200%20338%20100'%20fill='%23424750'%3e%3cpath%20d='M54.7868%200H45.2227C43.1386%200%2041.4065%201.53963%2041.0735%203.59248C37.933%2022.7713%2022.7827%2037.911%203.58776%2041.0568C1.53218%2041.399%200%2043.1192%200%2045.2005V54.5334C0%2056.6147%201.53218%2058.3349%203.58776%2058.6771C22.8683%2061.8419%2038.0567%2077.0956%2041.1115%2096.3885C41.4351%2098.4509%2043.1671%20100%2045.2608%20100H54.7393C56.8329%20100%2058.5649%2098.4509%2058.8885%2096.3885C61.9338%2077.0956%2077.1317%2061.8419%2096.4123%2058.6771C98.4678%2058.3444%20100%2056.6147%20100%2054.5334V45.2005C100%2043.1192%2098.4678%2041.399%2096.4123%2041.0568C77.2174%2037.9015%2062.067%2022.7618%2058.9265%203.59248C58.5935%201.53963%2056.8615%200%2054.7773%200M50.0095%2072.9709C44.5185%2063.3625%2036.5436%2055.3602%2026.9414%2049.8574C36.5436%2044.3547%2044.5185%2036.3524%2050%2026.744C55.4815%2036.3524%2063.4564%2044.3547%2073.0586%2049.8574C63.4564%2055.3602%2055.4815%2063.3625%2050%2072.9709'/%3e%3cpath%20d='M319.21%2042.8572H297.776C295.806%2042.8572%20294.203%2041.2538%20294.203%2039.2834C294.203%2037.3129%20295.806%2035.7095%20297.776%2035.7095H321.74C322.368%2035.7095%20322.977%2035.4584%20323.421%2035.0141L329.226%2029.3153C329.671%2028.8709%20329.922%2028.2624%20329.922%2027.6346V24.3409C329.922%2022.7278%20328.618%2021.4238%20327.005%2021.4238H298.114C288.436%2021.4238%20280.187%2028.9482%20279.849%2038.6266C279.492%2048.7879%20287.615%2057.1429%20297.699%2057.1429H319.055C320.919%2057.1429%20322.59%2058.5048%20322.764%2060.3594C322.967%2062.494%20321.296%2064.2809%20319.21%2064.2809H287.982C287.354%2064.2809%20286.794%2064.4258%20286.34%2064.8701L280.632%2070.6752C280.187%2071.1195%20279.936%2071.7281%20279.936%2072.3559V75.6496C279.936%2077.2627%20281.24%2078.5666%20282.853%2078.5666H318.785C328.463%2078.5666%20336.712%2071.0326%20337.06%2061.3543C337.417%2051.193%20329.294%2042.8476%20319.21%2042.8476'/%3e%3cpath%20d='M269.901%2021.4818H261.295C259.73%2021.4818%20258.465%2022.7472%20258.465%2024.3119V64.252H258.426L234.163%2064.2617C231.806%2064.2617%20229.893%2062.3492%20229.893%2059.9924V24.3023C229.893%2022.7375%20228.628%2021.4722%20227.063%2021.4722H218.467C216.902%2021.4722%20215.627%2022.7375%20215.627%2024.3023V57.1526C215.627%2068.956%20225.199%2078.5281%20237.002%2078.5281H250.602C251.076%2078.5281%20251.53%2078.3349%20251.868%2078.0065L258.436%2071.4287H258.445V75.698C258.445%2077.2627%20259.711%2078.5281%20261.276%2078.5281H269.882C271.446%2078.5281%20272.712%2077.2627%20272.712%2075.698V24.3023C272.712%2022.7375%20271.446%2021.4722%20269.882%2021.4722'/%3e%3cpath%20d='M132.83%20100H141.436C143.001%20100%20144.276%2098.7348%20144.276%2097.1701V78.5861H165.748C177.561%2078.5861%20187.143%2069.0044%20187.143%2057.1914V42.8767C187.143%2031.054%20177.561%2021.4819%20165.748%2021.4819H152.129C151.646%2021.4819%20151.192%2021.6655%20150.864%2022.0035L144.286%2028.5813H144.276V24.312C144.276%2022.7473%20143.001%2021.4819%20141.436%2021.4819H132.83C131.265%2021.4819%20130%2022.7473%20130%2024.312V97.1701C130%2098.7348%20131.275%20100%20132.83%20100ZM168.597%2035.758C170.954%2035.758%20172.876%2037.6705%20172.876%2040.0273V60.0408C172.876%2062.3976%20170.954%2064.3101%20168.597%2064.3101H144.315V35.758H168.597Z'/%3e%3cpath%20d='M194.396%202.81078V75.7654C194.396%2077.3205%20195.662%2078.5762%20197.207%2078.5762H205.765C207.32%2078.5762%20208.576%2077.3109%20208.576%2075.7654V2.81078C208.576%201.25567%20207.311%200%20205.765%200H197.207C195.652%200%20194.396%201.26533%20194.396%202.81078Z'/%3e%3c/svg%3e"
+            alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="/assets/digiClub-dHhqMZEC.svg" alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="/assets/digiJet-CuPGfja3.svg" alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="/assets/digiMehr-uNmtHdZS.svg" alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiNext.svg " alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiExpress.svg " alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiGanje.svg " alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiFy.svg " alt="">
+        </div>
+        <div
+          class="w-[33%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiTech.svg " alt="">
+        </div>
+        <div
+          class="w-[50%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiBis.svg " alt="">
+        </div>
+        <div
+          class="w-[50%] h-[80px] flex justify-center items-center border-solid border-black/20 border-[0.25px] p-[20px]">
+          <img height="20px" src="./public/Images/SVG/digiExpress.svg " alt="">
+        </div>
+      </div>
+    </div>
+    <hr class="w-[95%] m-auto h-[0.5px]">
+    <div class="w-full p-[20px] text-[14px] text-[#62666D] mb-[50px]">
+      <div class="flex font-bold text-[18px] text-[#62666D] pb-3 ">فروشگاه اینترنتی دیجیکالا , بررسی , انتخاب و خرید
+        آنلاین</div>
+      <p class="readMoreText text-black/50">یک خرید مطمئن اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+        متنوع، باکیفیت و دارای قیمت مناسب را
+        در
+        مدت زمان ی کوتاه به دست
+        مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر
+        روی
+        آن‌ها کار
+        کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.
+        <span class="moreText hidden text-black/50">و همچنین نوع کالا در اختیار کاربران خود قرار می‌دهد. هر یک از
+          روش های ارسال دیجی کالا شرایط و ویژگی‌های خاص خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و
+          پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی‌کالا، این فروشگاه اینترنتی در بخشی از وب‌سایت
+          خود راهنمای کاملی از شیوه‌‌های ارسال را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل 8 نوع
+          ارسال کالا به روش‌های زیر است: ارسال امروز، دریافت حضوری، دریافت از گنجه، ارسال توسط فروشنده، ارسال عادی،
+          ارسال کالاهای بزرگ، سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست
+
+          کدام محصولات در دیجی‌کالا قابل سفارش هستند؟
+
+          تقریبا می‌توان گفت محصولی وجود ندارد که دیجی‌کالا برای مشتریان خود در سراسر کشور فراهم نکرده باشد. شما
+          می‌توانید در تمامی روزهای هفته و تمامی شبانه روز دیجی‌کالا که محصولات دارای تخفیف عالی می‌شوند، سفارش خود
+          را به سادگی ثبت کرده و در روز و محدوده زمانی مناسب خود، درب منزل تحویل بگیرید. بعضی از گروه‌های اصلی و زیر
+          مجموعه‌های پرطرفدار محصولات دیجی‌کالا شامل مواردی می‌شود که در ادامه به معرفی آن‌ها می‌پردازیم که امکان
+          ارسال امروز برای آن ها وجود دارد.
+
+          دیجی کالا در جشنواره‌های سالیانه خود به طور معمول روی تمام دسته بندی‌های کالایی تخفیف‌های عالی
+          قرار‌می‌دهد. به عنوان مثال در زمان بلک فرایدی یا حراج جمعه سیاه، در این سال‌ها بیشترین درصد تخفیف در
+          اختیار مشتریان دیجی‌کالا قرار گرفته‌است و شامل دسته بندی های مختلف از موبایل و لپ تاپ تا عطر و لباس و حتی
+          غذای حیوانات خانگی بوده‌است.
+
+          کالای دیجیتال
+
+          انواع گوشی موبایل از برندهای مختلفی مثل آیفون، گوشی سامسونگ، گوشی نوکیا، گوشی شیائومی، گوشی هواوی، و...،
+          انواع کنسول بازی ps4 و ps5، انواع تبلت‌های پرطرفدار مثل تبلت سامسونگ نوت 10، انواع هندزفری مثل هندزفری بی
+          سیم، تلوزیون از برندهای مختلف مثل تلویزیون سامسونگ، سونی و...، انواع مانیتور، کیس، کیبورد، مودم از برندهای
+          مختلف مثل مودم ایرانسل، آنتن و ... تنها بخشی از محصولاتی هستند که زیر مجموعه کالای دیجیتال در دیجی‌کالا
+          قرار دارند.
+
+          خودرو، ابزار و تجهیزات صنعتی
+
+          انواع خودروهای ایرانی و خارجی از برندهای مطرحی مثل هوندا، کیا و...، موتور سیکلت از برندهایی مثل کویر موتور
+          و...، لوازم جانبی خودرو مثل سیستم صوتی تصویر، ضبط و...، لوازم یدکی مثل دیسک و صفحه کلاج و... و لوازم مصرفی
+          خودرو مثل کفپوش سانا در این گروه قرار می‌گیرند.
+
+          مد و پوشاک
+
+          محصولاتی مثل انواع لباس مثل لباس مجلسی زنانه و مردانه، لباس راحتی، لباس ورزشی، اکسسوری، کیف، کفش، عینک
+          آفتابی، لباس زیر، شال و روسری و... جزو مواردی هستند که می‌توانید آن‌ها را از برندهای مطرح ایرانی و خارجی
+          موجود در دیجی کالا مثل آدیداس، نایکی، دبنهامز، آلدو، درسا و... خریداری کنید.
+
+          اسباب بازی کودک و نوزاد
+
+          در این دسته از کالاهای دیجی‌کالا، انواع لوازم بهداشتی و حمام کودک و نوزاد، انواع پوشاک و کفش، تبلت،
+          اسباب‌بازی، لوازم اتاق خواب کودک، لوازم ایمنی، لوازم شخصی و غذا خوری و ... قرار می‌گیرد تا خرید را برای
+          پدر و مادرها به کاری سریع و آسان تبدیل کند.
+
+          کالاهای سوپر مارکتی
+
+          هر چیزی از مواد خوراکی که به آن نیاز دارید، در سوپرمارکت دیجی‌کالا پیدا می‌شود، محصولات پرطرفداری مثل کره
+          بادام‌زمینی، عسل، سس، قهوه، زعفران، شکلات، انواع نان و ... از برندهای معتبر و معروفی مثل نستله، نوتلا،
+          استارباکس، مزمز، چی توز و ... همگی در اختیار شما هستند و تا رسیدن به آشپزخانه شما تنها چند کلیک فاصله
+          دارند.
+
+          زیبایی و سلامت
+          انواع لوازم آرایش مثل لاک، رنگ مو، لوازم آرایش لب، چشم، صورت و... همگی در دیجی‌کالا موجود هستند. همچنین
+          محصولات بهداشتی مثل انواع شامپو، کرم ضد آفتاب، ماسک صورت، ضد تعریق، ماسک مو و...، انواع لوازم شخصی برقی،
+          ست هدیه، بهترین انواع عطر و اسپری، کرم پودر، ریمل و رژلب وانواع زیورآلات طلا و نقره مثل سرویس طلا، سرویس
+          نقره و... به همراه وسایل مراقبت شخصی طبی در گروه زیبایی و سلامت دیجی‌کالا قرار می‌گیرد. در این بخش برندهای
+          مطرحی مثل اسنس، پنبه ریز، سینره و... حضور دارند.همچنین میتوانید انواع مکمل غذایی و دارویی مثل داروی مناسب
+          سرماخوردگی را در دیجی کالا تهیه کنید.
+
+          خانه و آشپزخانه
+
+          یکی از متنوع‌ترین بخش‌های دیجی‌کالا، بخش لوازم خانه و آشپزخانه است که از محصولاتی مثل صندلی گیمینگ در بخش
+          صندلی‌ها گرفته تا انواع مبل راحتی، انواع آبگرمکن مثل آبگرمکن بوتان، لباسشویی‌های متنوع مثل انواع لباسشویی
+          اسنوا، شیرآلات مختلف مثل شیرآلات قهرمان و...، ظروف و همچنین لوازم برقی آشپزخانه مثل توستر و... را شامل
+          می‌شود و امکان خریدی عالی را برای مشتریان فراهم کرده است. در بخش لوازم خانگی دیجی‌کالا، برندهای معتبری مثل
+          تفال، اخوان، فیلیپس، ال جی، اسنوا، جی پلاس و... حضور دارند.
+
+          کتاب، لوازم تحریر و هنر
+
+          بخش هنر، کتاب، رمان و لوازم تحریر دیجی‌کالا نیز یکی از متنوع‌ترین بخش‌های این فروشگاه اینترنتی است. انواع
+          کتاب و مجله، کتاب زبان، بازی، لوازم تحریر با طرح‌های مختلف مانند دختر کفشدوزکی، سازهایی مثل پیانو، سنتور،
+          هنگ درام و... با بهترین قیمت‌ها و از بهترین برندها در دسترس شما قرار دارند.
+
+          ورزش و سفر
+
+          هر نوع وسیله و لباس ورزشی که فکرش را کنید، انواع وسایل کمپینگ و کوهنوردی، ساک و قمقمه ورزشی و وسایل سفر
+          اربعین و... در این بخش قرار می‌گیرند. همچنین شما می‌توانید وسایل مد نظر خود را بر اساس نوع ورزش (آبی،
+          هوازی، بدنسازی و...) در دسته‌بندی‌های دیجی‌کالا پیدا کنید.
+
+          محصولات بومی و محلی
+
+          و در آخر دیجی‌کالا از طریق به فروش رساندن محصولات بومی و سنتی متفاوتی مثل انواع خوراکی، گلیم و گبه، ابزار
+          و ... تلاش کرده تا بین هنر ایرانی و متقاضیان آن کوتاه‌ترین راه را پیدا کند. در این بخش شما می‌توانید انواع
+          محصولات از جمله ظروف زیبای مخصوص به سفره هفت‌سین و پذیرایی از مهمانان در روزهای نوروز، انواع آیینه و
+          شمعدان و هر آن چیزی را که برای خلق زیبایی در روزهای بهاری به آن نیاز دارید، با قیمت مناسب و تنوع بسیار
+          بالا انتخاب کنید. همچنین در صفحه برچسب ها، امکان مشاهده و خرید انواع محصولات با طرح های بومی وجود دارد.
+          دیجی‌کالا همچنین برای اینکه حال و هوای عید را به اعضای خود هدیه کند، تقویم ۱۴۰۱، انواع ایده عکس پروفایل
+          عید نوروز، آهنگ‌های عید نوروز و موزیک‌های شاد بهاری، وسایل مربوط به خانه‌تکانیی و انواع لباس های عید را
+          برای شما فراهم کرده است تا بتوانید در کنار خرید خود، از این حال و هوای تازه نهایت لذت را ببرید.</span>
+      </p>
+      <div class="flex"><button class="readMoreBTN text-blue">مشاهده بیشتر</button>
+        <img
+          src="data:image/svg+xml,%3csvg%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns='http://www.w3.org/2000/svg'%20style='width:%2024px;%20height:%2024px;%20fill:%20%2314C5DC'%20width='24'%20height='24'%3e%3cdefs%3e%3csymbol%20id='chevronLeft'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3cg%3e%3cpath%20d='M11.414%2012l4.293%204.293-1.414%201.414-5-5a1%201%200%20010-1.414l5-5%201.414%201.414L11.414%2012z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e"
+          alt="">
+      </div>
+
+    </div>
+  </div>
+  <!--Footer Mobile End-->
+
+
+
+
+
+  <!--Project End-->
+
+
+  <script>
+    const swiper = document.querySelector('.storySlider');
+
+    const nextBtn = document.querySelector('.custom-next');
+    const prevBtn = document.querySelector('.custom-prev');
+
+    nextBtn.addEventListener('click', () => {
+      swiper.swiper.slidePrev();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      swiper.swiper.slideNext();
+    });
+  </script>
+  <script>
+    const swiperBrand = document.querySelector('.popularBrandsSwiper');
+
+    const nextBtnBrand = document.querySelector('.custom-nextBrand');
+    const prevBtnBrand = document.querySelector('.custom-prevBrand');
+
+    nextBtnBrand.addEventListener('click', () => {
+      swiperBrand.swiper.slidePrev();
+    });
+
+    prevBtnBrand.addEventListener('click', () => {
+      swiperBrand.swiper.slideNext();
+    });
+  </script>
+  <script>
+    const swiperMostSell = document.querySelector('.mostSellItem');
+
+    const nextBtnMostSell = document.querySelector('.custom-nextMostSell');
+    const prevBtnMostSell = document.querySelector('.custom-prevMostSell');
+
+    nextBtnMostSell.addEventListener('click', () => {
+      swiperMostSell.swiper.slidePrev();
+    });
+
+    prevBtnMostSell.addEventListener('click', () => {
+      swiperMostSell.swiper.slideNext();
+    });
+  </script>
+  <script>
+    const mainSlider = document.querySelector('.mainSlider');
+
+    const nextBtnmainSlider = document.querySelector('.custom-nextmainSlider');
+    const prevBtnmainSlider = document.querySelector('.custom-prevmainSlider');
+
+    nextBtnmainSlider.addEventListener('click', () => {
+      mainSlider.swiper.slidePrev();
+    });
+
+    prevBtnmainSlider.addEventListener('click', () => {
+      mainSlider.swiper.slideNext();
+    });
+
+  </script>
+  <script>
+    const amazingSlider = document.querySelector('.amazingSlider');
+
+    const nextBtnamazingSlider = document.querySelector('.custom-nextamazingSlider');
+    const prevBtnamazingSlider = document.querySelector('.custom-prevamazingSlider');
+
+    nextBtnamazingSlider.addEventListener('click', () => {
+      amazingSlider.swiper.slidePrev();
+    });
+
+    prevBtnamazingSlider.addEventListener('click', () => {
+      amazingSlider.swiper.slideNext();
+    });
+
+  </script>
+</body>
+
+</html>
